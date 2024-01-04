@@ -6,7 +6,7 @@ import { fromHEX } from '@mysten/sui.js/utils';
 // create a new SuiClient object pointing to the network you want to use
 const suiClient = new SuiClient({ url: getFullnodeUrl('mainnet') });
 
-const PACKAGE_ID = "0x830fe26674dc638af7c3d84030e2575f44a2bdc1baa1f4757cfe010a4b106b6a"; // mainnet
+const PACKAGE_ID = "0xebbba763f5fc01d90c2791c03536a373791b634600e81d4e08b85f275f1274fa"; // mainnet V2
 const TickRecordID = "0xfa6f8ab30f91a3ca6f969d117677fb4f669e08bbeed815071cf38f4d19284199"; // mainnet
 const MINT_FEE = 100000000; // 0.1 SUI
 const TICK = "MOVE";
